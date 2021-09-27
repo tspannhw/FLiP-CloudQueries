@@ -13,6 +13,9 @@ where cputempf > 105
 select *
 from iotjetsonjson
 
+select cputempf, gputempf, diskusage, cpu, systemtime, uuid
+from jetsoniot2
+where cputempf > 105
 
 
 
